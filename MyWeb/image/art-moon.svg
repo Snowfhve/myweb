@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-labelledby="moonTitle moonDesc">
+  <title id="moonTitle">月亮、星星和熟睡小猫的夜晚插画</title>
+  <desc id="moonDesc">深绿色夜空里挂着一轮暖黄色月亮，一只奶油色小猫蜷在云朵上睡觉。</desc>
+  <rect width="640" height="640" rx="96" fill="#E8E4F0"/>
+  <rect x="52" y="48" width="536" height="544" rx="74" fill="#1D3A33"/>
+  <circle cx="442" cy="212" r="132" fill="#F2C75C" opacity=".13"/>
+  <circle cx="442" cy="198" r="94" fill="#F2C75C"/>
+  <circle cx="414" cy="174" r="14" fill="#E4B94C" opacity=".7"/>
+  <circle cx="468" cy="222" r="9" fill="#E4B94C" opacity=".65"/>
+  <circle cx="435" cy="240" r="5" fill="#E4B94C" opacity=".55"/>
+  <circle cx="142" cy="136" r="4" fill="#F7F3E9"/>
+  <circle cx="230" cy="102" r="2.5" fill="#D9E7A6"/>
+  <circle cx="534" cy="104" r="3" fill="#F7F3E9"/>
+  <circle cx="556" cy="330" r="2.5" fill="#D9E7A6"/>
+  <circle cx="112" cy="330" r="2" fill="#F7F3E9" opacity=".8"/>
+  <path d="M180 124v20M170 134h20" stroke="#F7F3E9" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+  <path d="M538 266v16M530 274h16" stroke="#F2C75C" stroke-width="3" stroke-linecap="round"/>
+  <path d="M84 218v13M77.5 224.5h13" stroke="#D9E7A6" stroke-width="2.5" stroke-linecap="round" opacity=".8"/>
+  <path d="M85 430c48-42 95-28 136-3 44 27 83 22 124-7" fill="none" stroke="#D9E7A6" stroke-width="2" stroke-dasharray="5 11" stroke-linecap="round" opacity=".4"/>
+  <g>
+    <ellipse cx="292" cy="493" rx="148" ry="57" fill="#F7F3E9"/>
+    <path d="M196 492c-31-9-50-35-38-58 12-23 42-17 54 4" fill="none" stroke="#F7F3E9" stroke-width="22" stroke-linecap="round"/>
+    <ellipse cx="348" cy="468" rx="81" ry="57" fill="#F7F3E9"/>
+    <circle cx="389" cy="429" r="46" fill="#F7F3E9"/>
+    <path d="M354 405l-9-34 34 21Z" fill="#F7F3E9"/>
+    <path d="M408 401l17-29 5 36Z" fill="#F7F3E9"/>
+    <path d="M352 392l-3-13 14 9Z" fill="#EFB4A3"/>
+    <path d="M415 385l7-11 2 14Z" fill="#EFB4A3"/>
+    <path d="M371 433q7 6 14 0" fill="none" stroke="#1D3A33" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M396 433q7 6 14 0" fill="none" stroke="#1D3A33" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M386 447q5 4 10 0" fill="none" stroke="#EF8B70" stroke-width="3" stroke-linecap="round"/>
+    <path d="M263 478q13-10 25 0M296 466q13-10 25 0" fill="none" stroke="#D9CBB9" stroke-width="4" stroke-linecap="round"/>
+    <path d="M420 512q42 5 54-24" fill="none" stroke="#F7F3E9" stroke-width="14" stroke-linecap="round" opacity=".55"/>
+  </g>
+  <path d="M383 303c0-12 10-21 23-21s23 9 23 21c0 13-13 24-23 33-10-9-23-20-23-33Z" fill="#1D3A33" opacity=".28"/>
+  <g fill="#D9E7A6">
+    <path d="M126 536c-1-20 14-36 34-37-1 21-15 36-34 37Z"/>
+    <path d="M155 536c5-15 20-22 35-17-5 14-19 22-35 17Z" opacity=".7"/>
+  </g>
+  <g fill="#F7F3E9" opacity=".55">
+    <circle cx="118" cy="90" r="4"/>
+    <circle cx="300" cy="146" r="3"/>
+    <circle cx="508" cy="380" r="3"/>
+  </g>
+  <path d="M486 354c10-3 17-10 18-19 5 11 10 17 21 19-10 4-16 10-19 20-3-10-9-17-20-20Z" fill="#F2C75C" opacity=".8"/>
+</svg>

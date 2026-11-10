@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-labelledby="tipsTitle tipsDesc">
+  <title id="tipsTitle">水杯、便利贴和小植物的健康习惯插画</title>
+  <desc id="tipsDesc">奶油黄色背景上放着一杯水、两张写满勾选清单的便利贴和一株小绿植。</desc>
+  <rect width="640" height="640" rx="96" fill="#F5E9C8"/>
+  <circle cx="122" cy="118" r="54" fill="#F2C75C"/>
+  <g stroke="#D8B64E" stroke-width="3" stroke-linecap="round" opacity=".7">
+    <path d="M122 40v-18M122 214v-18M44 118H26M218 118h-18M68 64L55 51M176 172l13 13M68 172l-13 13M176 64l13-13"/>
+  </g>
+  <path d="M547 112v26M534 125h26" stroke="#EF8B70" stroke-width="4" stroke-linecap="round"/>
+  <path d="M552 466v22M541 477h22" stroke="#2F6B4F" stroke-width="4" stroke-linecap="round" opacity=".55"/>
+  <g transform="rotate(-5 445 278)">
+    <rect x="325" y="166" width="236" height="222" rx="12" fill="#D9E7A6"/>
+    <rect x="384" y="148" width="118" height="31" rx="7" fill="#F7F3E9" opacity=".72"/>
+    <path d="M363 253l15 16 28-31" fill="none" stroke="#2F6B4F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M423 249h100M423 278h76M361 320h162M361 349h122" stroke="#2F6B4F" stroke-width="6" stroke-linecap="round" opacity=".55"/>
+  </g>
+  <g transform="rotate(4 390 458)">
+    <rect x="282" y="362" width="238" height="190" rx="12" fill="#EFB09A"/>
+    <rect x="345" y="345" width="110" height="28" rx="7" fill="#F7F3E9" opacity=".7"/>
+    <path d="M313 421h52M313 449h116M313 477h88" stroke="#8E4A37" stroke-width="6" stroke-linecap="round" opacity=".55"/>
+    <path d="M443 414c10-11 18-16 27-16-3 12-10 21-24 26" fill="none" stroke="#8E4A37" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g>
+    <path d="M103 253h132l-17 286q-2 28-31 28h-39q-28 0-31-28Z" fill="#FFFDF8" opacity=".8"/>
+    <path d="M119 320h100l-13 211q-2 14-15 14h-44q-13 0-15-14Z" fill="#BFDCD2"/>
+    <path d="M177 213l23 38" stroke="#EF8B70" stroke-width="9" stroke-linecap="round"/>
+    <path d="M203 252l10-31" stroke="#EF8B70" stroke-width="9" stroke-linecap="round" opacity=".5"/>
+    <path d="M119 349h100" stroke="#FFFDF8" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+    <path d="M137 290c6-10 18-15 28-10" fill="none" stroke="#FFFDF8" stroke-width="4" stroke-linecap="round" opacity=".6"/>
+    <circle cx="193" cy="390" r="24" fill="#F2C75C"/>
+    <path d="M193 366a24 24 0 0 1 0 48" fill="#F7E3A0"/>
+    <path d="M177 389l10 11 22-23" fill="none" stroke="#2F6B4F" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity=".55"/>
+  </g>
+  <g>
+    <path d="M80 550h122l-14-70H94Z" fill="#EF8B70"/>
+    <path d="M141 480c-3-47 2-81 19-107" fill="none" stroke="#2F6B4F" stroke-width="7" stroke-linecap="round"/>
+    <path d="M159 379c-29 0-48-14-51-39 27-5 48 10 51 39Z" fill="#2F6B4F"/>
+    <path d="M160 368c5-29 23-43 49-39-2 26-23 41-49 39Z" fill="#5F8B64"/>
+    <path d="M148 421c-23 2-39-9-44-29 21-6 39 5 44 29Z" fill="#7EA071"/>
+  </g>
+  <g fill="#24352C" opacity=".5">
+    <circle cx="560" cy="552" r="4"/>
+    <circle cx="82" cy="115" r="3"/>
+    <circle cx="290" cy="100" r="3"/>
+  </g>
+</svg>

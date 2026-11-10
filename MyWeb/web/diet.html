@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="健康饮食不是计算每一克：用我的餐盘公式、推荐食材和四份真实健康餐，搭出简单均衡的一餐。">
+  <meta name="theme-color" content="#1d4635">
+  <title>吃得刚刚好 · 饮食 | 好好生活计划</title>
+  <link rel="icon" href="../image/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="script.js" defer></script>
+</head>
+<body id="top" class="theme-diet">
+  <a class="skip-link" href="#main-content">跳到主要内容</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../index.html" aria-label="好好生活计划首页">
+        <span class="brand__mark">
+          <img src="../image/favicon.svg" width="43" height="43" alt="">
+        </span>
+        <span class="brand__text">
+          <strong>好好生活计划</strong>
+        </span>
+      </a>
+
+      <nav class="nav" id="site-nav" aria-label="主导航">
+        <a href="../index.html">首页</a>
+        <a href="diet.html" aria-current="page">饮食</a>
+        <a href="sleep.html">作息</a>
+        <a href="exercise.html">运动</a>
+        <a href="tips.html">小贴士</a>
+      </nav>
+
+      <a class="header-cta" href="tips.html#checkin">
+        今日打卡
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M7 17 17 7M8 7h9v9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="打开导航菜单">
+        <span class="nav-toggle__lines" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </span>
+      </button>
+
+      <span class="scroll-progress" aria-hidden="true"></span>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-hero">
+      <span class="page-hero__watermark" aria-hidden="true">01</span>
+      <div class="container">
+        <nav class="breadcrumb" aria-label="面包屑导航">
+          <a href="../index.html">首页</a>
+          <span class="breadcrumb__sep" aria-hidden="true">/</span>
+          <span aria-current="page">饮食</span>
+        </nav>
+
+        <div class="page-hero__grid">
+          <div class="page-hero__copy reveal">
+            <h1>吃得<br><span class="accent-underline">刚刚好。</span></h1>
+          </div>
+
+          <div class="page-hero__art reveal" style="--delay: 120ms">
+            <div class="page-art-frame page-art-frame--photo">
+              <img src="../image/meal-bento.jpg" width="1200" height="1600" alt="装有卤鸡翅、水煮蛋、豆制品、青菜、胡萝卜和小番茄的健康便当">
+            </div>
+            <span class="art-chip art-chip--tl"><span class="art-chip__dot" aria-hidden="true"></span>高蛋白 · 多蔬菜</span>
+            <span class="art-chip art-chip--br art-chip--sun">外食也能搭均衡</span>
+            <span class="art-spark art-spark--one" aria-hidden="true">✦</span>
+            <span class="art-spark art-spark--two" aria-hidden="true">✦</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight-top">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-head__main">
+            <h2>我的餐盘公式</h2>
+          </div>
+        </div>
+
+        <div class="plate-layout">
+          <div class="plate-figure reveal">
+            <div class="plate-wrap" aria-hidden="true">
+              <div class="plate"></div>
+            </div>
+            <span class="plate-label plate-label--veg">½ 蔬菜</span>
+            <span class="plate-label plate-label--protein">¼ 蛋白</span>
+            <span class="plate-label plate-label--grain">¼ 主食</span>
+          </div>
+
+          <div class="plate-copy reveal" style="--delay: 100ms">
+            <div class="ratio-list">
+              <div class="ratio-row">
+                <span class="ratio-row__percent">½</span>
+                <div>
+                  <h3>蔬菜水果，占一半</h3>
+                  <p>绿叶菜 + 彩椒、番茄、菌菇。每天至少两拳蔬菜，深绿色蔬菜常常出现。</p>
+                  <span class="ratio-row__tag">约两拳</span>
+                </div>
+              </div>
+              <div class="ratio-row">
+                <span class="ratio-row__percent">¼</span>
+                <div>
+                  <h3>优质蛋白，占四分之一</h3>
+                  <p>鸡蛋、鱼虾、鸡胸、瘦牛肉、豆腐都可以。每餐大约一个掌心大小。</p>
+                  <span class="ratio-row__tag">约一掌</span>
+                </div>
+              </div>
+              <div class="ratio-row">
+                <span class="ratio-row__percent">¼</span>
+                <div>
+                  <h3>全谷主食，占四分之一</h3>
+                  <p>杂粮饭、燕麦、玉米、红薯。用全谷物替换一半白米面，更耐饿。</p>
+                  <span class="ratio-row__tag">约一拳</span>
+                </div>
+              </div>
+            </div>
+            <div class="plate-footnote">
+              <span aria-hidden="true">🌱</span>
+              <p>水果和奶类可以放在两餐之间，当作加分项，不用硬塞进盘子里。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tint">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-head__main">
+            <h2>把这些放进购物车</h2>
+          </div>
+        </div>
+
+        <div class="food-grid">
+          <article class="food-card reveal">
+            <span class="food-card__ghost" aria-hidden="true">01</span>
+            <span class="food-card__emoji" aria-hidden="true">🥬</span>
+            <h3>深色蔬菜</h3>
+            <p>菠菜、油菜、西兰花、彩椒。颜色越丰富，搭配起来越有食欲。</p>
+            <span class="food-card__tag">每天两拳</span>
+          </article>
+
+          <article class="food-card reveal" style="--delay: 80ms">
+            <span class="food-card__ghost" aria-hidden="true">02</span>
+            <span class="food-card__emoji" aria-hidden="true">🍳</span>
+            <h3>优质蛋白</h3>
+            <p>鸡蛋、鱼虾、鸡胸、瘦牛肉、豆腐。蒸、煮、炖，都很友好。</p>
+            <span class="food-card__tag">每餐一掌</span>
+          </article>
+
+          <article class="food-card reveal" style="--delay: 120ms">
+            <span class="food-card__ghost" aria-hidden="true">03</span>
+            <span class="food-card__emoji" aria-hidden="true">🌽</span>
+            <h3>全谷杂粮</h3>
+            <p>糙米、燕麦、玉米、红薯、荞麦面。和白米面换着吃，口感更丰富。</p>
+            <span class="food-card__tag">替换一半</span>
+          </article>
+
+          <article class="food-card reveal" style="--delay: 160ms">
+            <span class="food-card__ghost" aria-hidden="true">04</span>
+            <span class="food-card__emoji" aria-hidden="true">🍊</span>
+            <h3>当季水果</h3>
+            <p>苹果、橙子、蓝莓、当季水果。整个吃比榨汁更有饱腹感。</p>
+            <span class="food-card__tag">每天一份</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-head__main">
+            <h2>我的四份健康餐</h2>
+          </div>
+        </div>
+
+        <div class="meal-grid">
+          <article class="meal-card reveal">
+            <button class="meal-trigger" type="button" data-lightbox data-full="../image/meal-chicken.jpg" data-caption="清蒸鸡腿 + 杂粮饭 + 清炒小白菜 + 黄瓜炒蛋。蛋白质、主食和蔬菜都在盘子里。">
+              <img src="../image/meal-chicken.jpg" width="1200" height="1600" loading="lazy" alt="清蒸鸡腿、杂粮饭、清炒小白菜和黄瓜炒蛋">
+              <span class="meal-trigger__num">01</span>
+              <span class="meal-trigger__hint">点击看大图 ↗</span>
+            </button>
+            <div class="meal-card__body">
+              <div class="meal-card__tags">
+                <span class="meal-tag">家常</span>
+                <span class="meal-tag">高蛋白</span>
+              </div>
+              <h3>鸡腿 × 杂粮饭 × 时蔬</h3>
+              <p>有肉、有菜、有主食。清蒸或少油煎，味道就已经很够。</p>
+            </div>
+          </article>
+
+          <article class="meal-card reveal" style="--delay: 80ms">
+            <button class="meal-trigger" type="button" data-lightbox data-full="../image/meal-bento.jpg" data-caption="卤鸡翅 + 水煮蛋 + 豆制品 + 青菜、胡萝卜和小番茄 + 紫米饭。外食便当也能挑到均衡组合。">
+              <img src="../image/meal-bento.jpg" width="1200" height="1600" loading="lazy" alt="装有卤鸡翅、水煮蛋、豆制品、青菜、胡萝卜和小番茄的便当">
+              <span class="meal-trigger__num">02</span>
+              <span class="meal-trigger__hint">点击看大图 ↗</span>
+            </button>
+            <div class="meal-card__body">
+              <div class="meal-card__tags">
+                <span class="meal-tag">外食</span>
+                <span class="meal-tag">高蛋白</span>
+              </div>
+              <h3>卤鸡翅 × 水煮蛋 × 时蔬</h3>
+              <p>外食便当也能搭均衡：先选蛋白质，再补足蔬菜和主食。</p>
+            </div>
+          </article>
+
+          <article class="meal-card reveal" style="--delay: 120ms">
+            <button class="meal-trigger" type="button" data-lightbox data-full="../image/meal-beef.jpg" data-caption="清汤牛肉丸 + 玉米 + 胡萝卜、木耳、青菜和海带。一碗热汤，把蔬菜、蛋白和主食都照顾到。">
+              <img src="../image/meal-beef.jpg" width="1200" height="1600" loading="lazy" alt="清汤牛肉丸配玉米、胡萝卜、木耳、青菜和海带">
+              <span class="meal-trigger__num">03</span>
+              <span class="meal-trigger__hint">点击看大图 ↗</span>
+            </button>
+            <div class="meal-card__body">
+              <div class="meal-card__tags">
+                <span class="meal-tag">清淡</span>
+                <span class="meal-tag">多蔬菜</span>
+              </div>
+              <h3>清汤牛肉丸 × 玉米 × 时蔬</h3>
+              <p>一碗热汤，蔬菜、蛋白和主食都照顾到，暖胃也满足。</p>
+            </div>
+          </article>
+
+          <article class="meal-card reveal" style="--delay: 160ms">
+            <button class="meal-trigger" type="button" data-lightbox data-full="../image/meal-grain.jpg" data-caption="香煎鸡胸 + 南瓜 + 西兰花 + 玉米 + 小番茄 + 紫甘蓝 + 半个水煮蛋 + 紫米。颜色丰富的一碗，适合运动后的晚餐。">
+              <img src="../image/meal-grain.jpg" width="1600" height="1200" loading="lazy" alt="鸡胸肉、南瓜、西兰花、玉米、小番茄、紫甘蓝和紫米组成的彩虹餐碗">
+              <span class="meal-trigger__num">04</span>
+              <span class="meal-trigger__hint">点击看大图 ↗</span>
+            </button>
+            <div class="meal-card__body">
+              <div class="meal-card__tags">
+                <span class="meal-tag">彩虹餐盘</span>
+                <span class="meal-tag">运动后</span>
+              </div>
+              <h3>鸡胸 × 南瓜 × 紫米</h3>
+              <p>颜色丰富的一碗，适合运动后补充能量，也很好吃。</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="inline-tip reveal">
+          <span class="inline-tip__icon" aria-hidden="true">🌿</span>
+          <p><strong>每个人的食量和需求都不同。</strong>这四份餐只是我的日常参考，按自己的饥饿感调整份量，吃得舒服比吃得“标准”更重要。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight-top">
+      <div class="container">
+        <a class="next-link reveal" href="sleep.html">
+          <span>
+            <h3>下一站：睡饱，再出发</h3>
+          </span>
+          <span class="next-link__arrow" aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer-simple">
+    <div class="container site-footer-simple__inner">
+      <span>© <span data-year>2026</span> 好好生活计划 · 网页设计课程作业</span>
+      <a class="simple-home-link" href="../index.html">← 返回首页</a>
+    </div>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox" aria-label="健康餐照片预览">
+    <div class="lightbox__inner">
+      <img class="lightbox__img" data-lightbox-image src="../image/meal-chicken.jpg" alt="">
+      <div class="lightbox__bar">
+        <p class="lightbox__caption" data-lightbox-caption id="lightbox-caption">清蒸鸡腿、杂粮饭和时蔬。</p>
+        <button class="lightbox__close" type="button" data-lightbox-close aria-label="关闭大图">×</button>
+      </div>
+    </div>
+  </dialog>
+</body>
+</html>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="好好生活计划标志">
+  <rect width="64" height="64" rx="18" fill="#2F6B4F"/>
+  <path d="M32 49V28.5" fill="none" stroke="#F7F3E9" stroke-width="3.4" stroke-linecap="round"/>
+  <path d="M32 35.5c-2.2-8.2-9.1-11.4-17.2-9.1.4 8.3 8.2 12.1 17.2 9.1Z" fill="#D9E7A6"/>
+  <path d="M32 29.5c1.2-8.2 8.8-12.7 17.6-9.7-.7 8.3-8.5 12.5-17.6 9.7Z" fill="#F2C75C"/>
+  <circle cx="49.5" cy="15.5" r="3" fill="#EF8B70"/>
+</svg>

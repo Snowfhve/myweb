@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="好好生活计划：从饮食、作息、运动和小习惯出发，把健康过成日常。">
+  <meta name="theme-color" content="#1d4635">
+  <title>好好生活计划 · 把健康过成日常</title>
+  <link rel="icon" href="image/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="web/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="web/script.js" defer></script>
+</head>
+<body id="top" class="theme-home">
+  <a class="skip-link" href="#main-content">跳到主要内容</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="好好生活计划首页">
+        <span class="brand__mark">
+          <img src="image/favicon.svg" width="43" height="43" alt="">
+        </span>
+        <span class="brand__text">
+          <strong>好好生活计划</strong>
+        </span>
+      </a>
+
+      <nav class="nav" id="site-nav" aria-label="主导航">
+        <a href="index.html" aria-current="page">首页</a>
+        <a href="web/diet.html">饮食</a>
+        <a href="web/sleep.html">作息</a>
+        <a href="web/exercise.html">运动</a>
+        <a href="web/tips.html">小贴士</a>
+      </nav>
+
+      <a class="header-cta" href="web/tips.html#checkin">
+        今日打卡
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M7 17 17 7M8 7h9v9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="打开导航菜单">
+        <span class="nav-toggle__lines" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </span>
+      </button>
+
+      <span class="scroll-progress" aria-hidden="true"></span>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__copy reveal">
+          <h1>
+            <span class="line">把健康，</span>
+            <span class="line accent-underline">过成日常。</span>
+          </h1>
+
+          <div class="hero__actions">
+            <a class="btn" href="web/diet.html">
+              从一顿饭开始
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <a class="text-link" href="#four">
+              看看我的四个小方向
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 5v14M6 13l6 6 6-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+
+        </div>
+
+        <div class="hero__art">
+          <div class="hero__blob" aria-hidden="true"></div>
+
+          <figure class="hero__photo hero__photo--main reveal" style="--delay: 100ms">
+            <img src="image/meal-chicken.jpg" width="1200" height="1600" alt="清蒸鸡腿、杂粮饭、清炒小白菜和黄瓜炒蛋">
+          </figure>
+
+          <figure class="hero__photo hero__photo--small reveal" style="--delay: 220ms">
+            <img src="image/meal-bento.jpg" width="1200" height="1600" alt="装有卤鸡翅、水煮蛋、豆制品和时蔬的健康便当">
+          </figure>
+
+          <figure class="hero__photo hero__photo--tiny reveal" style="--delay: 320ms">
+            <img src="image/meal-beef.jpg" width="1200" height="1600" alt="清汤牛肉丸配玉米、胡萝卜和时蔬">
+          </figure>
+
+          <div class="hero__badge" aria-hidden="true">好好<br>吃饭</div>
+
+          <div class="hero__note">
+            <strong>蔬菜 ½ · 蛋白 ¼ · 主食 ¼</strong>
+            <small>不用称重，用手掌和拳头估算就好。</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="four">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-head__main">
+            <h2>从四件小事开始。</h2>
+          </div>
+        </div>
+
+        <div class="theme-grid">
+          <a class="theme-card theme-card--eat reveal" href="web/diet.html">
+            <div class="theme-card__body">
+              <div class="theme-card__meta">
+                <span class="theme-card__num">01</span>
+                <span class="theme-card__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path d="M4 11.5h16a8 8 0 0 1-16 0Z" stroke-width="1.6" stroke-linejoin="round"/>
+                    <path d="M9 7.5c0-2 2-2 2-4M14 7.5c0-2 2-2 2-4" stroke-width="1.6" stroke-linecap="round"/>
+                  </svg>
+                </span>
+              </div>
+              <h3>吃得刚刚好</h3>
+              <p>一半蔬菜、四分之一蛋白、四分之一主食，简单搭出舒服的一餐。</p>
+              <span class="theme-card__link">
+                看看餐盘公式
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M7 17 17 7M8 7h9v9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+            </div>
+            <div class="theme-card__thumb">
+              <img src="image/meal-grain.jpg" width="1600" height="1200" loading="lazy" alt="鸡胸肉、南瓜、西兰花和紫米组成的彩虹餐碗">
+            </div>
+          </a>
+
+          <a class="theme-card theme-card--sleep reveal" href="web/sleep.html" style="--delay: 80ms">
+            <div class="theme-card__body">
+              <div class="theme-card__meta">
+                <span class="theme-card__num">02</span>
+                <span class="theme-card__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5Z" stroke-width="1.6" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+              </div>
+              <h3>睡饱，再出发</h3>
+              <p>固定起床时间，睡前给自己半小时降速，让身体知道该休息了。</p>
+              <span class="theme-card__link">
+                收下睡前流程
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M7 17 17 7M8 7h9v9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+            </div>
+            <div class="theme-card__thumb">
+              <img src="image/art-moon.svg" width="640" height="640" loading="lazy" alt="月亮和星星下，一只小猫蜷在云朵上睡觉">
+            </div>
+          </a>
+
+          <a class="theme-card theme-card--move reveal" href="web/exercise.html" style="--delay: 120ms">
+            <div class="theme-card__body">
+              <div class="theme-card__meta">
+                <span class="theme-card__num">03</span>
+                <span class="theme-card__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path d="M3 12h4l2-5 4 10 2-5h6" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+              </div>
+              <h3>让身体醒过来</h3>
+              <p>每周 150 分钟中等强度运动，再加两次力量练习。散步也算数。</p>
+              <span class="theme-card__link">
+                找到喜欢的运动
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M7 17 17 7M8 7h9v9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+            </div>
+            <div class="theme-card__thumb">
+              <img src="image/art-move.svg" width="640" height="640" loading="lazy" alt="在绿色跑道上奔跑的人">
+            </div>
+          </a>
+
+          <a class="theme-card theme-card--tips reveal" href="web/tips.html" style="--delay: 160ms">
+            <div class="theme-card__body">
+              <div class="theme-card__meta">
+                <span class="theme-card__num">04</span>
+                <span class="theme-card__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path d="m12 3 1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3Z" stroke-width="1.5" stroke-linejoin="round"/>
+                    <path d="M19 16v5M16.5 18.5h5" stroke-width="1.5" stroke-linecap="round"/>
+                  </svg>
+                </span>
+              </div>
+              <h3>小习惯，大不同</h3>
+              <p>喝水、晒太阳、久坐起身，小动作也能慢慢积累成好状态。</p>
+              <span class="theme-card__link">
+                打开每日打卡
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M7 17 17 7M8 7h9v9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+            </div>
+            <div class="theme-card__thumb">
+              <img src="image/art-tips.svg" width="640" height="640" loading="lazy" alt="水杯、便利贴和小植物组成的健康习惯插画">
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight-top">
+      <div class="container">
+        <div class="daily-note reveal">
+          <span class="daily-note__icon" aria-hidden="true">✦</span>
+          <div class="daily-note__body">
+            <p class="daily-note__text" data-tip-text aria-live="polite">
+              早餐加一个鸡蛋，再配一份水果，上午会更<em>踏实</em>。
+            </p>
+          </div>
+          <div class="daily-note__action">
+            <button class="btn btn--sun btn--small" type="button" data-tip-button>
+              换一条
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M20 11a8 8 0 1 0-2.3 6.3M20 4v7h-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer-simple">
+    <div class="container site-footer-simple__inner">
+      <span>© <span data-year>2026</span> 好好生活计划 · 网页设计课程作业</span>
+      <a class="simple-home-link" href="#top">回到顶部 ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
